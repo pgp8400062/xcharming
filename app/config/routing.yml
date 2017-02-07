@@ -1,8 +1,8 @@
 app:
-    resource: "@AppBundle/Controller/"
+    resource: "@AppBundle/Controller/App"
     host:     "www.mall.com"
     type:     annotation
 admin:
-  resource: "@AdminBundle/Controller/"
+  resource: "@AppBundle/Controller/Admin"
   host:     "admin.mall.com"
   type:     annotation
